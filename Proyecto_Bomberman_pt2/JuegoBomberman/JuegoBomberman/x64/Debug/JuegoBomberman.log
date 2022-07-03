@@ -1,0 +1,5 @@
+﻿  Juego.cpp
+D:\UNSA_2022\cienciasComputacion2\practicas_visual\JuegoBomberman\JuegoBomberman\Escenario.h(18,15): warning C4353: se ha utilizado una extensión no estándar: constante 0 como expresión de función. Utilice en su lugar la función intrínseca '__noop'
+D:\UNSA_2022\cienciasComputacion2\practicas_visual\JuegoBomberman\JuegoBomberman\Escenario.h(18,14): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+  Juego.obj : se encontró un módulo MSIL; vinculación incremental deshabilitada para MSIL; ejecutando vínculo completo
+  JuegoBomberman.vcxproj -> D:\UNSA_2022\cienciasComputacion2\practicas_visual\JuegoBomberman\x64\Debug\JuegoBomberman.exe

@@ -1,0 +1,4 @@
+D:\UNSA_2022\cienciasComputacion2\practicas_visual\JuegoBomberman\JuegoBomberman\x64\Debug\JuegoBomberman.vcxproj.AssemblyReference.cache
+D:\UNSA_2022\cienciasComputacion2\practicas_visual\JuegoBomberman\JuegoBomberman\x64\Debug\JuegoBomberman.vcxproj.SuggestedBindingRedirects.cache
+D:\UNSA_2022\cienciasComputacion2\practicas_visual\JuegoBomberman\JuegoBomberman\x64\Debug\JuegoBomberman.Juego.resources
+D:\UNSA_2022\cienciasComputacion2\practicas_visual\JuegoBomberman\JuegoBomberman\x64\Debug\JuegoBomberman.vcxproj.GenerateResource.cache
