@@ -1,0 +1,31 @@
+﻿  Juego.cpp
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Escenario.h(18,15): warning C4353: se ha utilizado una extensión no estándar: constante 0 como expresión de función. Utilice en su lugar la función intrínseca '__noop'
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Escenario.h(18,14): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Jugador.h(16,10): error C2065: 'vidas': identificador no declarado
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Jugador.h(48,3): error C2065: 'vidas': identificador no declarado
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Jugador.h(55,4): error C2065: 'vidas': identificador no declarado
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Jugador.h(60,4): error C2065: 'vidas': identificador no declarado
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(37,9): error C2143: error de sintaxis: falta ';' delante de '<'
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(37,9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(37,37): error C2334: símbolos (token) inesperados delante de '{'; se pasará por alto el cuerpo de función aparente
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Enemigo.h(15,13): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Controladora.h(40,36): error C2039: "getarregloBombas": no es un miembro de "CArrBombas"
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(6): message : vea la declaración de 'CArrBombas'
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Controladora.h(42,34): error C2039: "getarregloBombas": no es un miembro de "CArrBombas"
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(6): message : vea la declaración de 'CArrBombas'
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Controladora.h(43,32): error C2039: "getarregloBombas": no es un miembro de "CArrBombas"
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(6): message : vea la declaración de 'CArrBombas'
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Controladora.h(44,33): error C2039: "getarregloBombas": no es un miembro de "CArrBombas"
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(6): message : vea la declaración de 'CArrBombas'
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Controladora.h(45,33): error C2039: "getarregloBombas": no es un miembro de "CArrBombas"
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(6): message : vea la declaración de 'CArrBombas'
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Controladora.h(46,33): error C2039: "getarregloBombas": no es un miembro de "CArrBombas"
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(6): message : vea la declaración de 'CArrBombas'
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Controladora.h(47,33): error C2039: "getarregloBombas": no es un miembro de "CArrBombas"
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(6): message : vea la declaración de 'CArrBombas'
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Controladora.h(48,32): error C2039: "getarregloBombas": no es un miembro de "CArrBombas"
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(6): message : vea la declaración de 'CArrBombas'
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Controladora.h(49,32): error C2039: "getarregloBombas": no es un miembro de "CArrBombas"
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(6): message : vea la declaración de 'CArrBombas'
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\Controladora.h(51,21): error C2039: "getarregloBombas": no es un miembro de "CArrBombas"
+D:\UNSA_2022\cienciasComputacion2\ProyectoFinal_pt2\Proyecto_Bomberman_pt2\JuegoBomberman\JuegoBomberman\ArrBombas.h(6): message : vea la declaración de 'CArrBombas'
