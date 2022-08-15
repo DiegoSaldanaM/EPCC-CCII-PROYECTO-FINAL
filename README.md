@@ -1,2 +1,2 @@
-# EPCC-CCII-PROYECTO-FINAL
+# JUEGO BOMBERMAN
 Repositorio para el proyecto final de CCII
