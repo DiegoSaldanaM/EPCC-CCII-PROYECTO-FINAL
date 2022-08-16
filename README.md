@@ -1,10 +1,20 @@
-# PROYECTO FINAL CCII - JUEGO BOMBERMAN
+# <h1 align="center">PROYECTO FINAL CCII - JUEGO BOMBERMAN</h1>
 
 ![bomberman_logo___vector_by_sailorbomber_davj5z4-fullview](https://user-images.githubusercontent.com/106556678/184780033-98d6f622-521b-4e17-b81e-dc2bf608cb51.png)
 
-### Repositorio para el proyecto final de CC-II
+### <h1 align="center">Repositorio para el proyecto final de CC-II</h1>
 
 ## Tabla de contenidos
+
+- [Integrantes](#integrantes)
+- [Introdución](#introducción)
+- [Objetivo general](#objetivo-general)
+- [Objetivos específicos](#objetivos-específicos)
+- [Recursos empleados](#recursos-empleados)
+- [Mecánicas del juego](#mecánicas-del-juego)
+- [Instalación del juego](#instalación-del-juego)
+- [Organización del proyecto](#organización-del-proyecto)
+- [Capturas del juego](#capturas-del-juego)
 
 ## Integrantes
 
