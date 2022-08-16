@@ -1,5 +1,6 @@
 #ifndef __Bomba_H__
 #define __Bomba_H__
+#include"Enemigo.h"
 using namespace System::Drawing;
 using namespace std;
 //Forma moderna, enum class
@@ -71,7 +72,7 @@ class CBomba
 				Rectangle izquierda = Rectangle(x - 50, y, 50, 50);
 				g->DrawImage(bmpExplosionCentro, izquierda, porcionUsarIzquierda, GraphicsUnit::Pixel);
 
-				if (matriz[y / 50][(x - 50) / 50] == 3) { matriz[y / 50][(x - 50) / 50] = 2; }
+				if (matriz[y / 50][(x - 50) / 50] == 3) { matriz[y / 50][(x - 50) / 50] = 2; }				
 			}
 
 

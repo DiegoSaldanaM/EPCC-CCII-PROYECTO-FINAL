@@ -5,6 +5,7 @@
 #define destructible_block 3
 #include <ctime>
 #include <cstdlib>
+#include"ArrBombas.h"
 using namespace System::Drawing;
 enum Estado_Enemigo{Eliminado, Normal};//PARA VERIFICAR SI EL ENEMIGO ESTA AUN EN EL MAPA O FUE ELIMINADO
 
@@ -12,8 +13,7 @@ class CEnemigo
 {
 public:
 	CEnemigo() {
-		srand(time(NULL));
-		
+		srand(time(NULL));		
 		fila = rand() % f_jugable+1;//13
 		columna = rand() % c_jugable + 2;//14
 		posX = 715;
@@ -24,17 +24,18 @@ public:
 		ancho_imag = 96 / 6;//DIVIDIMOS ENTRE 6, PORQUE LA IMAGEN ESTA DIVIDIDA EN 6 SECCIONES
 		alto_imag = 16;
 		ubicado = false;
-		estado = Normal;
+		estado = Normal;		
 	}
 	~CEnemigo() {}
 
 	void animarEnemigo();
 	void dibujarEnemigo(Graphics ^g, Bitmap ^bmpEnemigo, int **matriz);
+	int borrarEnemigo();
 	Rectangle retornarRectangulo() {
 		return Rectangle(posX, posY, 50, 50);
 	}
 
-private:	
+protected:	
 	int posX;
 	int posY;
 	//DECLARAMOS i Y j para ayudar a que los enemigos no aparescan en un bloque destruible y asi solo aparescan en un bloque libre
@@ -83,7 +84,7 @@ void CEnemigo::dibujarEnemigo(Graphics^ g, Bitmap^ bmpEnemigo, int** matriz) {
 		posY = columna * 50;
 	}
 	//Dibujamos un rectangulo donde estara la imagen del enemigo
-	//Ya que los bloques son de 50x50, el enemigo sera un poco mas pequeña, 40x40
+	//Ya que los bloques son de 50x50, el enemigo sera un poco mas pequeño, 40x40
 	Rectangle Aumento = Rectangle(posX, posY, 40, 40);
 	g->DrawImage(bmpEnemigo, Aumento, porcionUsar, GraphicsUnit::Pixel);
 	ubicado = true;
@@ -91,8 +92,15 @@ void CEnemigo::dibujarEnemigo(Graphics^ g, Bitmap^ bmpEnemigo, int** matriz) {
 	if ((matriz[posY / 50][(posX + 50) / 50] == destructible_block || matriz[posY / 50][(posX + 50) / 50] == star_area) || 
 		matriz[posY/50][(posX-10)/50] == destructible_block || matriz[posY / 50][(posX - 10) / 50] == star_area) {
 		dx *= -1;
-	}
+	}	
 }
+
+int CEnemigo::borrarEnemigo()
+{	
+	return estado = Eliminado;;
+	
+}
+
 
 #endif // !__ENEMIGO__H__
 #pragma once

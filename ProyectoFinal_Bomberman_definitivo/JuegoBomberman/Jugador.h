@@ -30,7 +30,7 @@ public:
 		{
 			X = 0;
 			for (int j{ 0 }; j < columnas; j++) 
-			{
+			{				
 				Rectangle c1=Rectangle(X,Y,50,50);
 				if (matriz[i][j] == 1 || matriz[i][j] == 3) {
 					if (CDI.IntersectsWith(c1))dx = 0;

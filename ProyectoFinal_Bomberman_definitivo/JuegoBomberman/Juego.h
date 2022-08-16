@@ -10,6 +10,7 @@ namespace JuegoBomberman {
 	using namespace System::Windows::Forms;
 	using namespace System::Data;
 	using namespace System::Drawing;
+	using namespace System::Media;
 
 	/// <summary>
 	/// Resumen de Juego
@@ -18,6 +19,7 @@ namespace JuegoBomberman {
 	{
 	
 	private:
+		SoundPlayer^ cancion;
 		CControladora* oControladora;
 		Bitmap^ bmpSolido = gcnew Bitmap("imagenes\\bmpSolido.png");
 		Bitmap^ bmpDestruible = gcnew Bitmap("imagenes\\bmpDestruible.png");
@@ -133,12 +135,17 @@ namespace JuegoBomberman {
 		}
 
 #pragma endregion
+		void MusicaNivel() {
+			cancion = gcnew SoundPlayer("musica\\cancionBomberman.wav");
+			cancion->PlayLooping();
+		}
+
 	private: System::Void timer1_Tick(System::Object^ sender, System::EventArgs^ e) {
 		Graphics^ g = this->CreateGraphics();
 		BufferedGraphicsContext^ espacio = BufferedGraphicsManager::Current;
-		BufferedGraphics^ buffer = espacio->Allocate(g, this->ClientRectangle);
+		BufferedGraphics^ buffer = espacio->Allocate(g, this->ClientRectangle);		
 		oControladora->dibujar(buffer->Graphics, bmpSuelo, bmpSolido, bmpBomba, bmpExplosion, bmpDestruible, bmpJugador, bmpMejoras, bmpEnemigo);
-		this->Text = "" + oControladora->getoJugador()->getVidas();
+		this->Text = "Vidas: " + oControladora->getoJugador()->getVidas();
 		buffer->Render(g);
 		delete buffer, espacio, g;
 	}
@@ -183,12 +190,11 @@ namespace JuegoBomberman {
 		pbCarga->Increment(10);		
 		if (trCarga->Interval == 2500 && oControladora->getoArrEnemigos()->getarregloEnemigos().size() < oControladora->getNivel()) {
 			oControladora->crearEnemigos();
-			oControladora->crearMejoras();
 		}
 		else {
 			trCarga->Enabled = false;
 			timer1->Enabled = true;
-
+			MusicaNivel();
 			lblNivel->Visible = false;
 			lblNivel->Enabled = false;
 			pbCarga->Visible = false;

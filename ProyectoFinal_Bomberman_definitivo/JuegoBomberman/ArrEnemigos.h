@@ -24,7 +24,7 @@ private:
 
 void CArrEnemigos::crearEnemigos() {
 	CEnemigo* nuevo = new CEnemigo();
-	arregloEnemigos.push_back(nuevo);
+	arregloEnemigos.push_back(nuevo);	
 }
 
 void CArrEnemigos::dibujarEnemigo(Graphics^ g, Bitmap^ bmpEnemigo, int** matriz)

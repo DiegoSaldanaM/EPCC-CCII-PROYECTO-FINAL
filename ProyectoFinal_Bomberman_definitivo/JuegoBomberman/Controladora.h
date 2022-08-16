@@ -28,6 +28,10 @@ class CControladora
 			oArrBombas->crear_Bomba(oJugador->getX(), oJugador->getY());
 		}
 
+		void eliminar_Enemigo() {
+
+		}
+
 		void disminuir_Vidas_por_Enemigo() {
 			for (int i = 0; i < oArrEnemigos->getarregloEnemigos().size(); ++i) {
 				if (oJugador->retornarRectangulo().IntersectsWith(oArrEnemigos->getarregloEnemigos().at(i)->retornarRectangulo())) {
