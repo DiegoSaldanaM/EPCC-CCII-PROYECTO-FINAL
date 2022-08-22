@@ -26,6 +26,11 @@
 
 ## Introducción
 
+Este es nuestro proyecto de juego para nuestro trabajo final del curso de Ciencias de la Computación del sementre 3. Bomberman es un juego que no requiere que los jugadores tengan excelentes habilidades o tecnología avanzada. Es un juego sencillo que puede ser disfrutado por personas de todas las edades. 
+
+Como resultado de todos estos factores, desarrollamos un programa facil de usar y que ayuda a los usuarios a tener mejores experiencias posbiles. ¿Entonces que estamos esperando?
+
+
 ## Objetivo general
 
 ## Objetivos específicos
@@ -45,6 +50,22 @@
 ![](https://www.freecodecamp.org/espanol/news/content/images/2021/01/cover-pic-1-.jpeg)
 
 ## Mecánicas del juego
+
+Debes encontrar la salida del laberinto, se encuentra oculta debajo de un bloque, puedes destruir los bloques con bombas.
+
+Cuidado con los enemigos, te tocan y buff mueres.
+
+Come bonus para mejorar tus habilidades.
+
+
+## Controles
+
+Flechas: Mover Izquierda - Derecha - Arriba - Abajo
+
+Space: Para colocar una bomba
+
+Esc: Menú
+
 
 ## Instalación del juego
 
