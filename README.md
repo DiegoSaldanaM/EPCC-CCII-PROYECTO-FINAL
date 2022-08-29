@@ -74,5 +74,5 @@ Esc: Menú
 ## Capturas del juego
 
 
-Link del video del Trabajo Final:
+## Link del video del Trabajo Final:
 - https://www.youtube.com/watch?v=MtvfV0bUFhs&ab_channel=JUANDIEGOHUAMANIVILCA
